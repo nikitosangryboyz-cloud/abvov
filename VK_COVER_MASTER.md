@@ -2,11 +2,13 @@
 
 ## 1. PURPOSE
 
-This is the **single working source of truth** for creating VK covers.
+Единый рабочий источник для создания обложек ВКонтакте.
 
-The goal is not to copy one reference or another designer. The goal is to make each new cover look like a natural continuation of the user's existing portfolio.
+Главная цель:
 
-**The user's own references are the visual authority.** GitHub research is only supporting infrastructure.
+> Новая обложка должна выглядеть как естественное продолжение существующего портфолио пользователя, а не как случайный AI-баннер или готовый шаблон.
+
+**Референсы пользователя — главный источник визуальных решений.** GitHub, Figma и другие инструменты — только техническая поддержка.
 
 ---
 
@@ -14,286 +16,337 @@ The goal is not to copy one reference or another designer. The goal is to make e
 
 - Desktop VK cover: **1920 × 768 px**
 - Aspect ratio: **2.5 : 1**
-- One continuous composition, not a collection of UI cards.
+- Работать сразу в финальном размере.
+- Обложка — единая композиция, а не набор независимых UI-карточек.
 
 ---
 
 ## 3. CORE VISUAL DNA
 
-Every cover should have:
+Каждая обложка должна иметь:
 
-- one dominant visual idea;
-- one dominant headline;
-- one dominant subject when imagery is used;
-- strong typographic scale;
-- controlled negative space;
-- clear visual hierarchy;
-- intentional depth when imagery is used;
-- theme-specific art direction;
-- a custom, non-template feel.
+- один главный визуальный замысел;
+- один доминирующий заголовок;
+- один главный герой / объект, если используется изображение;
+- крупную выразительную типографику;
+- осознанное негативное пространство;
+- ясную визуальную иерархию;
+- контролируемую глубину;
+- тематическую арт-дирекцию;
+- ощущение авторской работы, а не шаблона.
 
-Typography and imagery should normally feel like one composition rather than a website text block placed on a picture.
+Текст и изображение обычно должны ощущаться как одна композиция.
 
-Avoid the automatic formula:
+Не использовать автоматически формулу:
 
-> text left + person/product right + cards underneath.
+> текст слева + человек справа + карточки снизу.
 
-Use the composition that is actually supported by the chosen references.
+Композиция определяется выбранными референсами и конкретной задачей.
 
 ---
 
 ## 4. TYPOGRAPHY
 
-The main headline is the strongest textual element.
+Главный заголовок — самый сильный текстовый элемент.
 
-Typical characteristics:
+Характер:
 
-- large / oversized;
-- strong visual weight;
-- usually one or two lines;
-- sometimes three short lines;
-- condensed display, grotesk, editorial serif, script or another characterful display style depending on the references;
-- high contrast;
-- typography may overlap or interact with the hero.
+- крупный / oversized;
+- сильный визуальный вес;
+- высокая читаемость;
+- обычно 1–2 строки, иногда 3 короткие;
+- condensed display, grotesk, editorial serif, script или другой характерный display-шрифт — по референсам;
+- высокий контраст;
+- типографика может перекрываться или взаимодействовать с героем.
 
-There is no mandatory font for every project. Match the typographic character to the closest references.
+Нет одного обязательного шрифта для всех проектов. Шрифт выбирается по характеру ближайших референсов.
 
-### Text hierarchy
+### Иерархия
 
-1. **Main headline** — dominant.
-2. **Descriptor** — only when actually required.
-3. **Supporting information** — only when supplied or clearly supported by the references.
+1. **Главный заголовок** — доминирует.
+2. **Дескриптор** — только если действительно нужен.
+3. **Вторичная информация** — только если предоставлена пользователем или явно поддерживается референсами.
 
-Do not invent information to fill empty space.
+Не придумывать текст ради заполнения пространства.
 
 ---
 
 ## 5. COMPOSITION
 
-Possible composition behaviors include:
+Возможны:
 
-- text left / subject right;
-- text right / subject left;
-- central title with subject overlap;
-- full-width typography interrupted by the subject;
-- split composition;
+- текст слева / герой справа;
+- текст справа / герой слева;
+- центральный заголовок + перекрытие героем;
+- широкая типографика, которую прерывает герой;
+- разделённая композиция;
 - editorial asymmetry.
 
-These are **not templates**. Select or create the composition according to the references for the current project.
+Это **не готовые шаблоны**. Выбирать или строить композицию по референсам.
 
-### Subject
+### HERO
 
-When imagery is used, the main subject should be large enough to be immediately noticeable and integrated into the environment.
+Если используется изображение, главный объект должен быть достаточно крупным и заметным.
 
-Avoid tiny isolated subjects and generic stock-photo presentation.
-
----
-
-## 6. BACKGROUND / HERO
-
-The background is part of the visual world of the cover.
-
-It may use photography, architecture, interiors, landscapes, products, environments, textures or other thematic imagery according to the brief and references.
-
-The subject should belong to the environment through:
-
-- lighting;
-- color grading;
-- shadows;
-- haze;
-- depth;
-- atmospheric integration.
-
-Do not simply paste a cutout onto a background.
-
-Color is determined by the brand, niche and references. There is no mandatory palette.
+Не использовать маленькие изолированные объекты и типовую stock-photo подачу.
 
 ---
 
-## 7. DEPTH AND LIGHT
+## 6. GRID, ALIGNMENT & TEXT CLEARANCE
 
-When imagery is used, build clear depth between:
+Перед композицией определить:
 
-1. background;
-2. atmospheric layer;
-3. secondary elements;
-4. hero subject;
-5. typography;
-6. optional foreground effects.
+- основные вертикальные оси;
+- горизонтальные уровни;
+- зону заголовка;
+- зону героя;
+- негативное пространство.
 
-Lighting should be intentional and can use rim light, backlight, soft glow, haze, shadows or other effects when supported by the reference.
+Использовать сетку и направляющие. Выравнивание — обязательная часть профессиональной сборки.
 
-Do not add effects just because they are available.
+### TEXT CLEARANCE
 
----
+Фон и герой должны учитывать будущую типографику.
 
-## 8. EXTRA ELEMENTS
+Если объект мешает чтению заголовка:
 
-CTA, badges, labels, icons, statistics and decorative elements are **optional**.
+- изменить его положение;
+- затемнить;
+- размыть;
+- убрать;
+- создать свободное пространство.
 
-Use them only when:
-
-- they are present in the selected references;
-- they are explicitly supplied by the user;
-- or they are genuinely necessary for the requested composition.
-
-Never add them automatically.
+Не спасать перегруженный фон большой плашкой под текстом, если этого нет в референсе.
 
 ---
 
-## 9. HARD NO
+## 7. BACKGROUND / HERO
 
-Do NOT automatically add:
+Фон подбирается под нишу и ближайшие референсы.
 
-- benefit cards;
-- “Почему мы”;
+Он может быть фотографическим, интерьерным, архитектурным, предметным, абстрактным, текстурным или атмосферным.
+
+Герой должен принадлежать среде через:
+
+- свет;
+- цветокоррекцию;
+- тени;
+- дымку;
+- глубину;
+- атмосферное смешение.
+
+Не просто вставлять вырезанный объект на фон.
+
+Если у человека или объекта есть выраженное направление взгляда / движения, по возможности направлять его к главному сообщению, если это усиливает композицию.
+
+---
+
+## 8. DEPTH & LAYERING
+
+Использовать несколько глубинных планов:
+
+**BACKGROUND → ATMOSPHERE → SECONDARY ELEMENTS → HERO → TYPOGRAPHY → FOREGROUND**
+
+Элементы могут находиться перед или за текстом.
+
+Использовать:
+
+- перекрытия;
+- перспективу;
+- размытие;
+- тени;
+- свет;
+- масштаб;
+- частичное кадрирование.
+
+Не помещать все элементы в одну плоскость.
+
+---
+
+## 9. LIGHT
+
+Свет — часть композиции, а не случайный декоративный эффект.
+
+Он должен:
+
+- отделять героя от фона;
+- направлять внимание;
+- создавать глубину;
+- связывать героя, фон и типографику;
+- усиливать акцентный цвет.
+
+Допустимы rim light, backlight, мягкое свечение, атмосферная дымка, volumetric light и локальные световые акценты, если они поддержаны референсом.
+
+Не добавлять световые эффекты без композиционной функции.
+
+---
+
+## 10. COLOR
+
+Обязательной палитры нет.
+
+Цвет определяется референсами, брендом и темой.
+
+Акцентный цвет используется экономно и только там, где усиливает иерархию.
+
+Не добавлять цвет просто потому, что он кажется «премиальным» или красивым.
+
+---
+
+## 11. DECORATION
+
+Декоративные элементы допустимы только если они подтверждены референсом или имеют понятную композиционную функцию.
+
+Текстура, зерно, дымка, световые акценты, тематические объекты, линии, рамки и атмосферные элементы допустимы только при необходимости.
+
+Не превращать композицию в набор случайных AI-декораций.
+
+---
+
+## 12. INFORMATION DENSITY
+
+Приоритет:
+
+**MAIN MESSAGE → HERO → SECONDARY MESSAGE → SMALL FACTS**
+
+Информация должна читаться за один взгляд.
+
+Не добавлять дополнительные блоки только потому, что есть свободное место.
+
+---
+
+## 13. STRICTLY DO NOT ADD
+
+Не добавлять автоматически:
+
+- карточки преимуществ;
+- «Почему мы»;
 - FAQ;
 - service grids;
 - icon grids;
-- giant website CTA;
-- random arrows or circles;
-- glassmorphism cards;
-- generic abstract blobs;
-- excessive gradients;
-- dozens of small labels;
-- fake statistics;
-- meaningless decorative text;
-- fake logos or brands;
-- invented services;
+- большие website-style CTA;
+- случайные стрелки или круги;
+- glassmorphism-карточки;
+- лишние badges;
+- десятки мелких подписей;
+- фейковые статистики;
+- бессмысленный декоративный текст;
+- случайные 3D-объекты;
+- абстрактные blobs;
+- шаблонные UI-панели;
+- чрезмерные градиенты;
+- fake logos / fake brands;
+- придуманные услуги;
 - random premium gold details;
-- generic corporate illustrations;
-- Canva-like template blocks.
+- элементы, которых нет в референсной логике.
 
-Do not fill empty space just because it exists.
-
----
-
-## 10. TYPOGRAPHY-ONLY MODE
-
-Use this mode when the user asks for typography first.
-
-Create **only the typographic asset**.
-
-- no background;
-- no photography;
-- no people;
-- no products;
-- no environment;
-- no icons;
-- no CTA;
-- no invented supporting text;
-- transparent background when possible;
-- preserve exact requested wording;
-- focus on headline scale, font, weight, angle, spacing and placement.
-
-The result must be ready to place over a separately generated background in Figma.
+CTA, badges, icons и дополнительные подписи использовать только если они явно нужны по референсу или предоставлены пользователем.
 
 ---
 
-## 11. BACKGROUND-ONLY MODE
+## 14. WORK MODES
 
-Use this mode when the user asks for the background separately.
+### TYPOGRAPHY ONLY
 
-Create **only the visual environment / hero**.
+Создавать только типографический asset:
 
-- no typography;
-- no logos;
-- no CTA;
-- no badges;
-- no invented text;
-- leave intentional negative space for the approved typography;
-- composition and lighting must support the previously approved text placement.
+- без фона;
+- без фотографий;
+- без людей;
+- без продуктов;
+- без окружения;
+- без иконок;
+- без CTA;
+- без придуманного дополнительного текста;
+- прозрачный фон, если инструмент поддерживает;
+- фокус на шрифте, весе, масштабе, наклоне, интервалах и положении.
 
----
+### BACKGROUND ONLY
 
-## 12. FINAL ASSEMBLY MODE
+Создавать только визуальную сцену / hero:
 
-Combine the approved typography and approved background.
+- без текста;
+- без логотипов;
+- без CTA;
+- без badges;
+- без придуманного текста;
+- оставить негативное пространство под утверждённую типографику;
+- композиция и свет должны учитывать её положение.
 
-Use Figma or another layout tool for:
+### FINAL ASSEMBLY
 
-- exact coordinates;
-- scale;
-- spacing;
-- layer order;
-- editable typography;
-- image placement;
-- final export.
+Объединить утверждённую типографику и утверждённый фон / hero.
 
-Do not redesign approved elements during assembly unless the user asks for changes.
+Использовать Figma или другой layout-инструмент для точных координат, масштаба, spacing, layer order и редактируемой типографики.
 
----
-
-## 13. PRODUCTION WORKFLOW
-
-```text
-USER BRIEF
-↓
-READ THIS MASTER
-↓
-CHECK USER REFERENCES
-↓
-CHOOSE / BUILD COMPOSITION
-↓
-TYPOGRAPHY ONLY
-↓
-BACKGROUND / HERO ONLY
-↓
-FINAL ASSEMBLY
-↓
-VISUAL QC
-↓
-EXPORT
-```
-
-### Important
-
-Do not ask AI to make an arbitrary “beautiful banner”.
-
-Start from the reference-derived composition and the exact information supplied by the user.
+Не менять утверждённые элементы без отдельной команды.
 
 ---
 
-## 14. VISUAL QC
+## 15. FINISHING ORDER
 
-Before approving a cover, check:
+Собирать в таком порядке:
 
-- Is the main message obvious at a glance?
-- Is the headline large enough?
-- Is the text hierarchy clear?
-- Is the hero dominant when imagery is used?
-- Does text interact naturally with the image?
-- Is there intentional negative space?
-- Are unnecessary elements absent?
-- Is the cover readable at reduced size?
-- Does it look like a continuation of the user's portfolio rather than a generic AI banner?
-- Did we invent anything the user did not request?
+1. композиция;
+2. типографика;
+3. герой;
+4. глубина и перекрытия;
+5. свет;
+6. цветовой баланс;
+7. текстура;
+8. финальная коррекция.
 
-If the answer to the last question is yes, remove it.
+Текстура и эффекты не должны маскировать слабую композицию.
+
+### FINAL COLOR CHECK
+
+Проверить:
+
+- контраст;
+- светлые области;
+- тени;
+- температуру;
+- насыщенность;
+- общий цветовой баланс;
+- виньетирование при необходимости;
+- зерно / текстуру при необходимости.
+
+Финальная коррекция должна объединять все элементы в одну сцену.
 
 ---
 
-## 15. GITHUB RESEARCH — HOW IT IS USED
+## 16. GITHUB / TOOLKIT RULE
 
-GitHub projects are **supporting technical references only**.
+GitHub и технические инструменты используются для улучшения процесса, автоматизации и production workflow.
 
-Useful ideas already researched:
+Они **не определяют визуальный стиль**.
 
-- separate visual generation from text generation;
-- generate composition candidates instead of arbitrary banners;
-- treat social covers as reusable production formats;
-- use Figma as the precise assembly layer;
-- inspect and visually validate the result;
-- use reusable design-system logic where it genuinely improves production.
+Визуальные решения всегда подчиняются референсам пользователя и этому MASTER-файлу.
 
-Do not copy another repository's visual style or blindly install tools.
+---
 
-The visual authority remains this MASTER plus the user's own references.
+## 17. VISUAL QC
+
+Перед финализацией проверить:
+
+- [ ] размер 1920×768;
+- [ ] один главный визуальный замысел;
+- [ ] главный заголовок читается мгновенно;
+- [ ] герой достаточно крупный, если он используется;
+- [ ] текст и изображение образуют единую композицию;
+- [ ] есть осознанное негативное пространство;
+- [ ] элементы выровнены по сетке / направляющим;
+- [ ] глубина построена слоями;
+- [ ] свет объединяет сцену;
+- [ ] нет случайных декоративных элементов;
+- [ ] нет придуманных информационных блоков;
+- [ ] нет шаблонного Canva / AI-banner ощущения;
+- [ ] работа выглядит как продолжение портфолио пользователя.
 
 ---
 
 # FINAL RULE
 
-> **Make the next VK cover as if it were created by the same designer who created the user's reference portfolio.**
+> **Не создавать просто красивую обложку. Создавать следующую обложку из той же визуальной системы, что и референсы пользователя.**
 
-> **When in doubt, remove elements rather than invent them.**
+> **Когда сомневаешься — убери элемент, а не придумывай его.**
